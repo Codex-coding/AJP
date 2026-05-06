@@ -1,0 +1,45 @@
+Click "File → New → Dynamic Web Project"
+Enter Project Name as "Practical7"
+Select "Apache Tomcat v9.0" in Target Runtime
+Click "Next"
+Click "Next"
+Click "Finish"
+
+Expand "Practical7 → Java Resources → src/main/java"
+Right click "src/main/java"
+Click "New → Servlet"
+Enter Class Name as "HelloServlet"
+Click "Finish"
+Delete generated code
+Paste HelloServlet.java code
+Press "Ctrl + S"
+
+Expand "src → main → webapp"
+Right click "webapp"
+Click "New → HTML File"
+Enter File Name as "input.html"
+Click "Finish"
+Delete generated HTML code
+Paste HTML code
+Press "Ctrl + S"
+
+Open "Window → Show View → Servers"
+Click "Create a new server"
+Select "Apache Tomcat v9.0 Server"
+Click "Next"
+Select "Practical7"
+Click "Add >"
+Click "Finish"
+
+In Servers tab, right click "Tomcat v9.0 Server at localhost"
+Click "Start"
+Wait for message "Started, Synchronized"
+Right click "input.html"
+Click "Run As → Run on Server"
+Select "Tomcat v9.0"
+Click "Finish"
+
+Browser opens automatically
+Enter Username and Password
+Click "Login"
+Output displays entered Username and Password
