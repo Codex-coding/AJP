@@ -3,7 +3,7 @@ public class Database {
     public static void main(String[] args) {  
         try {  
             Class.forName("com.mysql.cj.jdbc.Driver");  
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/college", "root", "Atharva@1234");  
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/college", "root", "root123");  
             Statement s = con.createStatement();  
             //s.execute("create table student ( stud_id integer,stud_name varchar(20),stud_address varchar(30) )"); // create a table  
             s.execute("insert into student values(001,'Arman','Delhi')"); // insert first row into the table   
