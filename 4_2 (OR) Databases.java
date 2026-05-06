@@ -25,7 +25,7 @@ public class Databases {
 
             // Insert Data
             st.executeUpdate(
-                    "insert into students values(1,'Atharva')");
+                    "insert into students values(1,'Ak')");
 
             // Retrieve Data
             ResultSet rs = st.executeQuery(
