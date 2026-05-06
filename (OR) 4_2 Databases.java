@@ -13,7 +13,7 @@ public class Databases {
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/college",
                     "root",
-                    "Atharva@1234");
+                    "root123");
 
             // Statement
             Statement st = con.createStatement();
